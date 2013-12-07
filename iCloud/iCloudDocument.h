@@ -39,7 +39,7 @@
 /** @name Delegate */
 
 /** iCloud Delegate helps call methods when document processes begin or end */
-@property (weak, nonatomic) id <iCloudDocumentDelegate> delegate;
+@property (unsafe_unretained, nonatomic) id <iCloudDocumentDelegate> delegate;
 
 
 
