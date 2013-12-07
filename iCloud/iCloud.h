@@ -46,7 +46,7 @@ NS_CLASS_AVAILABLE_IOS(5_1) @interface iCloud : NSObject
 /** @name Delegate */
 
 /** iCloud Delegate helps call methods when document processes begin or end */
-@property (weak, nonatomic) id <iCloudDelegate> delegate;
+@property (unsafe_unretained, nonatomic) id <iCloudDelegate> delegate;
 
 
 
