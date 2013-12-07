@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <iCloud/iCloudDocument.h>
+#import "iCloudDocument.h"
 
 #define DOCUMENT_DIRECTORY @"Documents"
 
